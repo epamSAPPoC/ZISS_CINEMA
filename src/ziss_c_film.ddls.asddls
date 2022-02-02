@@ -59,11 +59,11 @@ define root view entity ZISS_C_FILM
       } ]
       GroupID,
        @UI: {  lineItem:       [ { position: 40 },
-                            { type: #FOR_ACTION, dataAction: 'acceptFilm', label: 'Add a Film' },
+                            { type: #FOR_ACTION, dataAction: 'acceptFilm', label: 'Accept' },
                             { type: #FOR_ACTION, dataAction: 'cancelFilm', label: 'Cancel a Film' }
                           ],
           identification: [ { position: 40 },
-                            { type: #FOR_ACTION, dataAction: 'acceptFilm', label: 'Add a Film' },
+                            { type: #FOR_ACTION, dataAction: 'acceptFilm', label: 'Accept' },
                             { type: #FOR_ACTION, dataAction: 'cancelFilm', label: 'Cancel a Film' }
                           ] } 
     @UI.fieldGroup: [ { qualifier: 'Basic_Data', position: 30}] 
